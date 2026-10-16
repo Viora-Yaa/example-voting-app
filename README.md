@@ -63,3 +63,22 @@ The voting application only accepts one vote per client browser. It does not reg
 This isn't an example of a properly architected perfectly designed distributed app... it's just a simple
 example of the various types of pieces and languages you might see (queues, persistent data, etc), and how to
 deal with them in Docker at a basic level.
+
+## Capstone 1: Setup Progress
+
+### Milestone 1 — Repository Setup
+
+**Status:** Completed
+
+- Identified the original Voting App repository: https://github.com/dockersamples/example-voting-app
+- Forked the repository to my GitHub account.
+- Cloned my fork onto my BlackArch Linux computer.
+- Verified that the Git remote `origin` points to my own fork.
+- Confirmed that the current branch is `main`.
+- Confirmed that the working tree is clean and the local branch is up to date with `origin/main`.
+
+**Local project directory:**
+
+`/home/viora/devops-engineering-capstone_projects/capstone-project1/example-voting-app`
+
+**Next milestone:** Verify Docker API communication, then launch and test the application using Docker Compose.
